@@ -8,28 +8,28 @@ define:
 
   categories:
     anime:
-      - &ANIME_DIRECTOR   { order: 1,  en: director,   cn: '导演类'    }
-      - &ANIME_STORYBOARD { order: 2,  en: storyboard, cn: '分镜/脚本类' }
-      - &ANIME_DIRECTION  { order: 3,  en: direction,  cn: '演出类'    }
-      - &ANIME_ANIMATION  { order: 4,  en: animation,  cn: '作画类'    }
-      - &ANIME_DESIGN     { order: 5,  en: design,     cn: '设定类'    }
-      - &ANIME_ART        { order: 6,  en: art,        cn: '美术类'    }
-      - &ANIME_MUSIC      { order: 7,  en: music,      cn: '声音类'    }
-      - &ANIME_PRODUCTION { order: 8,  en: production, cn: '制作类'    }
-      - &ANIME_PRODUCER   { order: 9,  en: producer,   cn: '制片类'    }
-      - &ANIME_COLOR      { order: 10, en: colorist,   cn: '色彩类'    }
-      - &ANIME_VISUAL     { order: 11, en: visual,     cn: '视觉类'    }
-      - &ANIME_ASSISTANT  { order: 12, en: assistant,  cn: '助理类'    }
+      - &ANIME_DIRECTOR { order: 1, en: director, cn: "导演类" }
+      - &ANIME_STORYBOARD { order: 2, en: storyboard, cn: "分镜/脚本类" }
+      - &ANIME_DIRECTION { order: 3, en: direction, cn: "演出类" }
+      - &ANIME_ANIMATION { order: 4, en: animation, cn: "作画类" }
+      - &ANIME_DESIGN { order: 5, en: design, cn: "设定类" }
+      - &ANIME_ART { order: 6, en: art, cn: "美术类" }
+      - &ANIME_MUSIC { order: 7, en: music, cn: "声音类" }
+      - &ANIME_PRODUCTION { order: 8, en: production, cn: "制作类" }
+      - &ANIME_PRODUCER { order: 9, en: producer, cn: "制片类" }
+      - &ANIME_COLOR { order: 10, en: colorist, cn: "色彩类" }
+      - &ANIME_VISUAL { order: 11, en: visual, cn: "视觉类" }
+      - &ANIME_ASSISTANT { order: 12, en: assistant, cn: "助理类" }
     game:
-      - &GAME_PRODUCER    { order: 1,  en: producer,    cn: '发行类' }
-      - &GAME_DIRECTOR    { order: 2,  en: director,    cn: '导演类' }
-      - &GAME_STORYBOARD  { order: 3,  en: storyboard,  cn: '脚本类' }
-      - &GAME_DESIGN      { order: 4,  en: design,      cn: '设定类' }
-      - &GAME_ART         { order: 5,  en: art,         cn: '美术类' }
-      - &GAME_ANIMATION   { order: 6,  en: animation,   cn: '动画类' }
-      - &GAME_MUSIC       { order: 7,  en: music,       cn: '声音类' }
-      - &GAME_PRODUCTION  { order: 8,  en: production,  cn: '制作/程序类' }
-      - &GAME_ASSISTANT   { order: 0,  en: assistant,   cn: '助理类' }
+      - &GAME_PRODUCER { order: 1, en: producer, cn: "发行类" }
+      - &GAME_DIRECTOR { order: 2, en: director, cn: "导演类" }
+      - &GAME_STORYBOARD { order: 3, en: storyboard, cn: "脚本类" }
+      - &GAME_DESIGN { order: 4, en: design, cn: "设定类" }
+      - &GAME_ART { order: 5, en: art, cn: "美术类" }
+      - &GAME_ANIMATION { order: 6, en: animation, cn: "动画类" }
+      - &GAME_MUSIC { order: 7, en: music, cn: "声音类" }
+      - &GAME_PRODUCTION { order: 8, en: production, cn: "制作/程序类" }
+      - &GAME_ASSISTANT { order: 0, en: assistant, cn: "助理类" }
 
   types:
     anime: &ANIME_STAFFS
@@ -39,7 +39,7 @@ define:
         jp: ""
         categories:
           - *ANIME_DESIGN
-        
+
       74:
         en: "Chief Director"
         cn: "总导演"
@@ -136,7 +136,7 @@ define:
         jp: "劇中劇 コンテ・演出"
         categories:
           - *ANIME_DIRECTION
-          
+
       6:
         en: "Music"
         cn: "音乐"
@@ -387,7 +387,7 @@ define:
         categories:
           - *ANIME_DIRECTOR
           - *ANIME_PRODUCTION
-          
+
       18:
         en: "Supervision/Supervisor"
         cn: "监修"
@@ -497,7 +497,7 @@ define:
         jp: "Insert Song Arrangement"
         categories:
           - *ANIME_MUSIC
-          
+
       24:
         en: "Associate Producer"
         cn: "制作助理"
@@ -543,7 +543,7 @@ define:
         jp: "カラースクリプト"
         categories:
           - *ANIME_COLOR
-      
+
       27:
         en: "Digital Paint"
         cn: "数码绘图"
@@ -685,7 +685,7 @@ define:
         jp: "音響効果"
         categories:
           - *ANIME_MUSIC
-          
+
       88:
         en: "Special Effects Animation Direction"
         cn: "特效作画监督"
@@ -1428,6 +1428,10 @@ define:
         en: "Label"
         cn: "厂牌"
         jp: "レーベル"
+      3015:
+        en: "Vocal"
+        cn: "歌唱"
+        jp: "ボーカル"
       3019:
         en: "Featured Artist/Featured Performers"
         cn: "客串艺人"
@@ -1440,15 +1444,11 @@ define:
         en: "Arrange"
         cn: "编曲"
         jp: ""
-      3014:
-        en: "Instrument"
-        cn: "乐器"
-        jp: ""
-      3012:
+      3022:
         en: "Chorus"
         cn: "和声"
         jp: "コーラス"
-      3013:
+      3021:
         en: "Choir"
         cn: "合唱"
         jp: ""
@@ -1456,6 +1456,10 @@ define:
         en: "Narration"
         cn: "念白"
         jp: "ナレーション"
+      3014:
+        en: "Instrument"
+        cn: "乐器"
+        jp: ""
       3017:
         en: "Vocal Edit"
         cn: "人声编辑"
@@ -1488,70 +1492,10 @@ define:
         en: "Illustrator"
         cn: "插图"
         jp: ""
-      3021:
+      3023:
         en: "Design"
         cn: "设计"
         jp: "デザイン"
-      3010:
-        en: "Scenario"
-        cn: "脚本"
-        jp: "シナリオ"
-      3011:
-        en: "O.P."
-        cn: "出版方"
-        jp: "音楽出版社"
-      3001:
-        en: "Artist"
-        cn: "艺术家"
-        jp: ""
-      3002:
-        en: "Producer"
-        cn: "制作人"
-        jp: ""
-      3004:
-        en: "Label"
-        cn: "厂牌"
-        jp: "レーベル"
-      3003:
-        en: "Composer"
-        cn: "作曲"
-        jp: ""
-      3006:
-        en: "Lyric"
-        cn: "作词"
-        jp: ""
-      3008:
-        en: "Arrange"
-        cn: "编曲"
-        jp: ""
-      3014:
-        en: "Instrument"
-        cn: "乐器"
-        jp: ""
-      3015:
-        en: "Vocal"
-        cn: "歌唱"
-        jp: "ボーカル"
-      3007:
-        en: "Recording"
-        cn: "录音"
-        jp: ""
-      3013:
-        en: "Mixing"
-        cn: "混音"
-        jp: ""
-      3012:
-        en: "Mastering"
-        cn: "母带制作"
-        jp: ""
-      3009:
-        en: "Illustrator"
-        cn: "插图"
-        jp: ""
-      3005:
-        en: "Original Creator/Original Work"
-        cn: "原作"
-        jp: ""
       3010:
         en: "Scenario"
         cn: "脚本"
