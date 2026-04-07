@@ -8,28 +8,28 @@ define:
 
   categories:
     anime:
-      - &ANIME_DIRECTOR { order: 1, en: director, cn: "导演类" }
-      - &ANIME_STORYBOARD { order: 2, en: storyboard, cn: "分镜/脚本类" }
-      - &ANIME_DIRECTION { order: 3, en: direction, cn: "演出类" }
-      - &ANIME_ANIMATION { order: 4, en: animation, cn: "作画类" }
-      - &ANIME_DESIGN { order: 5, en: design, cn: "设定类" }
-      - &ANIME_ART { order: 6, en: art, cn: "美术类" }
-      - &ANIME_MUSIC { order: 7, en: music, cn: "声音类" }
-      - &ANIME_PRODUCTION { order: 8, en: production, cn: "制作类" }
-      - &ANIME_PRODUCER { order: 9, en: producer, cn: "制片类" }
-      - &ANIME_COLOR { order: 10, en: colorist, cn: "色彩类" }
-      - &ANIME_VISUAL { order: 11, en: visual, cn: "视觉类" }
-      - &ANIME_ASSISTANT { order: 12, en: assistant, cn: "助理类" }
+      - &ANIME_DIRECTOR   { order: 1,  en: director,   cn: '导演类'    }
+      - &ANIME_STORYBOARD { order: 2,  en: storyboard, cn: '分镜/脚本类' }
+      - &ANIME_DIRECTION  { order: 3,  en: direction,  cn: '演出类'    }
+      - &ANIME_ANIMATION  { order: 4,  en: animation,  cn: '作画类'    }
+      - &ANIME_DESIGN     { order: 5,  en: design,     cn: '设定类'    }
+      - &ANIME_ART        { order: 6,  en: art,        cn: '美术类'    }
+      - &ANIME_MUSIC      { order: 7,  en: music,      cn: '声音类'    }
+      - &ANIME_PRODUCTION { order: 8,  en: production, cn: '制作类'    }
+      - &ANIME_PRODUCER   { order: 9,  en: producer,   cn: '制片类'    }
+      - &ANIME_COLOR      { order: 10, en: colorist,   cn: '色彩类'    }
+      - &ANIME_VISUAL     { order: 11, en: visual,     cn: '视觉类'    }
+      - &ANIME_ASSISTANT  { order: 12, en: assistant,  cn: '助理类'    }
     game:
-      - &GAME_PRODUCER { order: 1, en: producer, cn: "发行类" }
-      - &GAME_DIRECTOR { order: 2, en: director, cn: "导演类" }
-      - &GAME_STORYBOARD { order: 3, en: storyboard, cn: "脚本类" }
-      - &GAME_DESIGN { order: 4, en: design, cn: "设定类" }
-      - &GAME_ART { order: 5, en: art, cn: "美术类" }
-      - &GAME_ANIMATION { order: 6, en: animation, cn: "动画类" }
-      - &GAME_MUSIC { order: 7, en: music, cn: "声音类" }
-      - &GAME_PRODUCTION { order: 8, en: production, cn: "制作/程序类" }
-      - &GAME_ASSISTANT { order: 0, en: assistant, cn: "助理类" }
+      - &GAME_PRODUCER    { order: 1,  en: producer,    cn: '发行类' }
+      - &GAME_DIRECTOR    { order: 2,  en: director,    cn: '导演类' }
+      - &GAME_STORYBOARD  { order: 3,  en: storyboard,  cn: '脚本类' }
+      - &GAME_DESIGN      { order: 4,  en: design,      cn: '设定类' }
+      - &GAME_ART         { order: 5,  en: art,         cn: '美术类' }
+      - &GAME_ANIMATION   { order: 6,  en: animation,   cn: '动画类' }
+      - &GAME_MUSIC       { order: 7,  en: music,       cn: '声音类' }
+      - &GAME_PRODUCTION  { order: 8,  en: production,  cn: '制作/程序类' }
+      - &GAME_ASSISTANT   { order: 0,  en: assistant,   cn: '助理类' }
 
   types:
     anime: &ANIME_STAFFS
