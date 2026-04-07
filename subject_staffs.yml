@@ -1444,10 +1444,6 @@ define:
         en: "Instrument"
         cn: "乐器"
         jp: ""
-      3015:
-        en: "Vocal"
-        cn: "歌唱"
-        jp: "ボーカル"
       3012:
         en: "Chorus"
         cn: "和声"
@@ -1534,8 +1530,8 @@ define:
         jp: ""
       3015:
         en: "Vocal"
-        cn: "声乐"
-        jp: ""
+        cn: "歌唱"
+        jp: "ボーカル"
       3007:
         en: "Recording"
         cn: "录音"
