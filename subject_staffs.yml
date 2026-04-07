@@ -1470,7 +1470,7 @@ define:
         jp: "ボーカルディレクション"
       3020:
         en: "Sound Director"
-        cn: "音声监督"
+        cn: "音乐总监"
         jp: "サウンドディレクション"
       3007:
         en: "Recording"
